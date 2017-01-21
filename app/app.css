@@ -25,6 +25,7 @@
 .slides {
     margin: 200px;
     background-color: black;
+    width: 60%;
 }
 
 Label {
