@@ -47,5 +47,6 @@
     "host": "packages-12-west.internal.npmjs.com",
     "tmp": "tmp/http-2.3.1.tgz_1481768815788_0.5901153646409512"
   },
-  "directories": {}
+  "directories": {},
+  "readme": "ERROR: No README data found!"
 }

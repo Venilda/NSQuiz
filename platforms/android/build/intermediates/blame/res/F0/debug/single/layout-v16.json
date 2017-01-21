@@ -2,5 +2,9 @@
     {
         "merged": "C:\\Users\\Freeware Sys\\Desktop\\AndroidAppVenelin\\NSQuizApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\layout-v16\\notification_template_custom_big.xml",
         "source": "C:\\Users\\Freeware Sys\\Desktop\\AndroidAppVenelin\\NSQuizApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\Freeware Sys\\Desktop\\AndroidAppVenelin\\NSQuiz\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\layout-v16\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Freeware Sys\\Desktop\\AndroidAppVenelin\\NSQuiz\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout-v16\\notification_template_custom_big.xml"
     }
 ]

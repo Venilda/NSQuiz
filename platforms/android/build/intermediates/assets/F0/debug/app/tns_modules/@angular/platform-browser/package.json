@@ -46,5 +46,6 @@
     "host": "packages-12-west.internal.npmjs.com",
     "tmp": "tmp/platform-browser-2.3.1.tgz_1481768821277_0.4396030860953033"
   },
-  "directories": {}
+  "directories": {},
+  "readme": "ERROR: No README data found!"
 }
