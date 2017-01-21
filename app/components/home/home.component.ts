@@ -15,7 +15,10 @@ export class HomeComponent {
         this.router.navigate(["quiz-list"]);
     }
 
-    public buttonTap(){
+    public singIn(){
         this.router.navigate(["login"]);
+    }
+    public singUp(){
+        this.router.navigate(["register"]);
     }
 }
