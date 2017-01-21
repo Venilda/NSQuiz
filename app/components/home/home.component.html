@@ -1,10 +1,9 @@
-<ActionBar title="Home">
-    <ActionItem text="Next" (tap)="onTap()"></ActionItem>
+<ActionBar title="Welcome">
 </ActionBar>
 
 <StackLayout>
-    <GridLayout rows="*, 70">
-        <GridLayout row="0">
+    <GridLayout rows="*, 70" columns="*,*">
+        <GridLayout row="0" colSpan="2">
             <slides [loop]="true">
                 <slide class="slide-1">
                     <Label text="This is Panel 1"></Label>
@@ -15,16 +14,13 @@
                 <slide class="slide-3">
                     <Label text="This is Panel 3"></Label>
                 </slide>
-                <slide class="slide-4">
-                    <Label text="This is Panel 4"></Label>
-                </slide>
-                <slide class="slide-5">
-                    <Label text="This is Panel 5"></Label>
-                </slide>
             </slides>
         </GridLayout>
-        <GridLayout row="1">
-            <Button text="Sing In" class="btn" (tap)="buttonTap()"></Button>
+        <GridLayout row="1" col="0">
+            <Button text="Sing In" class="btn" (tap)="singIn()"></Button>
+        </GridLayout>
+        <GridLayout row="1" col="1">
+            <Button text="Sing Up" class="btn" (tap)="singUp()"></Button>
         </GridLayout>
     </GridLayout>
 </StackLayout>
