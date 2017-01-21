@@ -1,5 +1,6 @@
 import { Component } from "@angular/core";
 import {Router} from "@angular/router";
+// import { Button } from "ui/button";
 
 @Component({
     selector: "home",
@@ -11,6 +12,10 @@ export class HomeComponent {
     }
  
     public onTap() {
+        this.router.navigate(["quiz-list"]);
+    }
+
+    public buttonTap(){
         this.router.navigate(["login"]);
     }
 }

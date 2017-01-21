@@ -1,7 +1,9 @@
 import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
 import { NativeScriptModule } from "nativescript-angular/nativescript.module";
 
+
 import { AppComponent } from "./app.component";
+import { SlidesModule } from 'nativescript-ng2-slides';
 
 import { NativeScriptRouterModule } from "nativescript-angular/router";
 import { appComponents, appRoutes } from "./app.routing";
@@ -10,6 +12,7 @@ import { appComponents, appRoutes } from "./app.routing";
     declarations: [AppComponent, ...appComponents],
     bootstrap: [AppComponent],
     imports: [NativeScriptModule,
+              SlidesModule,
               NativeScriptRouterModule,
               NativeScriptRouterModule.forRoot(appRoutes)],
     schemas: [NO_ERRORS_SCHEMA]

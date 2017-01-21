@@ -10,7 +10,7 @@
         "spec": "2.4.0",
         "type": "version"
       },
-      "C:\\Users\\Freeware Sys\\Desktop\\AndroidAppVenelin\\NSQuizApp\\node_modules\\tns-core-modules"
+      "C:\\Users\\Freeware Sys\\Desktop\\AndroidAppVenelin\\NSQuiz\\node_modules\\nativescript-ng2-slides\\node_modules\\tns-core-modules"
     ]
   ],
   "_from": "tns-core-modules-widgets@2.4.0",
@@ -38,13 +38,13 @@
     "type": "version"
   },
   "_requiredBy": [
-    "/tns-core-modules"
+    "/nativescript-ng2-slides/tns-core-modules"
   ],
   "_resolved": "https://registry.npmjs.org/tns-core-modules-widgets/-/tns-core-modules-widgets-2.4.0.tgz",
   "_shasum": "95de9f147268e806d6cf6bc8761ca235dd194f73",
   "_shrinkwrap": null,
   "_spec": "tns-core-modules-widgets@2.4.0",
-  "_where": "C:\\Users\\Freeware Sys\\Desktop\\AndroidAppVenelin\\NSQuizApp\\node_modules\\tns-core-modules",
+  "_where": "C:\\Users\\Freeware Sys\\Desktop\\AndroidAppVenelin\\NSQuiz\\node_modules\\nativescript-ng2-slides\\node_modules\\tns-core-modules",
   "author": {
     "name": "NativeScript team"
   },
