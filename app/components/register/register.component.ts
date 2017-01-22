@@ -15,7 +15,6 @@ export class RegisterComponent {
     public submit(){
         console.log("You’re using: " + this.user.name);
         console.log("You’re password: " + this.user.password);
-        
     }
 }
 
