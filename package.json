@@ -9,6 +9,10 @@
             "version": "2.4.1"
         }
     },
+    "scripts": {
+        "android": "tns run android",
+        "start": "tns livesync android --watch"
+    },
     "dependencies": {
         "@angular/common": "2.3.1",
         "@angular/compiler": "2.3.1",
