@@ -2,7 +2,7 @@
 </ActionBar>
 
 <StackLayout>
-    <GridLayout rows="*, 70" columns="*,*">
+    <GridLayout rows="8*, *" columns="*,*">
         <GridLayout row="0" colSpan="2">
             <slides [loop]="true">
                 <slide class="slide-1">
@@ -16,11 +16,7 @@
                 </slide>
             </slides>
         </GridLayout>
-        <GridLayout row="1" col="0">
-            <Button text="Sing In" class="btn" (tap)="singIn()"></Button>
-        </GridLayout>
-        <GridLayout row="1" col="1">
-            <Button text="Sing Up" class="btn" (tap)="singUp()"></Button>
-        </GridLayout>
+        <Button row="1" col="0" text="Sing In" class="btn" (tap)="singIn()"></Button>
+        <Button row="1" col="1" text="Sing Up" class="btn" (tap)="singUp()"></Button>
     </GridLayout>
 </StackLayout>
