@@ -1,5 +1,5 @@
-<ActionBar title="Login">
-    <NavigationButton text="Back"></NavigationButton>
+<ActionBar title="{{user.name}}">
+    <NavigationButton text="Back" android.systemIcon="ic_menu_back"></NavigationButton>
 </ActionBar>
 <StackLayout>
     <TextField id="user-name" [(ngModel)]="user.name" hint="User name" keyboardType="text" autocorrect="false" autocapitalizationType="none"></TextField>

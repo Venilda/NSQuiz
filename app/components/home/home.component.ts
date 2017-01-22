@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
 import {Router} from "@angular/router";
-// import { Button } from "ui/button";
+import { TnsSideDrawer } from 'nativescript-sidedrawer';
 
 @Component({
     selector: "home",
