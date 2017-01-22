@@ -1,3 +1,10 @@
 <ActionBar title="Register">
     <NavigationButton text="Back"></NavigationButton>
+    <NavigationButton text="go back" android.systemIcon="ic_menu_back"></NavigationButton>
 </ActionBar>
+<StackLayout>
+    <TextField id="user-name" [(ngModel)]="user.name" hint="User name" keyboardType="text" autocorrect="false" autocapitalizationType="none"></TextField>
+    <TextField id="password" [(ngModel)]="user.password" secure="true" hint="Password" keyboardType="password" autocorrect="false" autocapitalizationType="none"></TextField>
+    <TextField id="confirmPassword" [(ngModel)]="user.confirmPassword" secure="true" hint="Confirm Password" keyboardType="password" autocorrect="false" autocapitalizationType="none"></TextField>
+    <Button text="Sign Up" class="submit-button" (tap)="submit()"></Button>
+</StackLayout>
