@@ -4,7 +4,7 @@ import { UserModel } from "./../models/user.model";
 
 @Injectable()
 export class UserService {
-  register(user: UserModel) {
-    alert("About to register: " + user.name);
+  register(user: UserModel){
+      console.log("User is login!");
   }
 }
