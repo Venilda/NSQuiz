@@ -27,14 +27,15 @@ export class RegisterComponent {
 
     private makePostRequest() {
         this.dataBaseService
-            .postData({ username: this.user.name, password: this.user.password })
+            .postData({ username: this.user.name, password: this.user.password, confirmPassword: this.user.confirmPassword })
             .subscribe(res => {
                 this.message = res.json.data.username;
                 // >> (hide)
                 console.log(this.message);
                 this.isItemVisible = true;
                 // << (hide)
-            });
+            },
+            error => console.log(error));
     }
 }
 

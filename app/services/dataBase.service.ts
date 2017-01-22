@@ -19,7 +19,7 @@ export class DataBaseService {
         let options = this.createRequestOptions();
         console.log(data.username);
         console.log(data.password);
-        return this.http.post(this.serverUrl, { data }, options)
+        return this.http.post(this.serverUrl, data, options)
             .map(res => res.json());
     }
 
