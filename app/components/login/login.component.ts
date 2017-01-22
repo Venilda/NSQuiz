@@ -17,7 +17,7 @@ export class LoginComponent {
     }
 
     public submit(){
-        this.userService.login(this.user.id);
+        // this.userService.login(this.user.id);
         console.log("User is log!");
         this.router.navigate([""]);
     }

@@ -10,6 +10,8 @@ import { SlidesModule } from 'nativescript-ng2-slides';
 import { NativeScriptRouterModule } from "nativescript-angular/router";
 import { appComponents, appRoutes } from "./app.routing";
 
+import { DataBaseService } from '../app/services/dataBase.service';
+
 @NgModule({
     declarations: [AppComponent, ...appComponents],
     bootstrap: [AppComponent],
@@ -19,6 +21,7 @@ import { appComponents, appRoutes } from "./app.routing";
               SlidesModule,
               NativeScriptRouterModule,
               NativeScriptRouterModule.forRoot(appRoutes)],
+    providers: [DataBaseService],
     schemas: [NO_ERRORS_SCHEMA]
 })
 export class AppModule { }

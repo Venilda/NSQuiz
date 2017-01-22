@@ -1,6 +1,5 @@
 import { Component } from "@angular/core";
 import {Router} from "@angular/router";
-import { TnsSideDrawer } from 'nativescript-sidedrawer';
 
 @Component({
     selector: "home",
