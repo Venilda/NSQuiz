@@ -5,21 +5,20 @@ import "rxjs/add/operator/map";
 import "rxjs/add/operator/do";
 
 // data in object
-import { UserModel } from "./../models/user.model";
+import { DbModel } from "./../models/db.model";
 
 @Injectable()
 export class DataBaseService {
-    users: Array<UserModel>;
-    constructor(){
+    constructor(private data: DbModel){
         
     }
 
-    postUserData(user: UserModel){
-        return this.users.push(user);
+    postUserData(user: any){
+        return this.data.users.push(user);
     }
 
-    getUserData(user: UserModel){
-        return this.users.filter(user => user.name);
+    getUserData(user: any){
+        return this.data.users.filter(user => user.name);
     }
 
     // // web server
