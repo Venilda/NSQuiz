@@ -17,8 +17,10 @@ export class HomeComponent {
 
     public singIn(){
         this.router.navigate(["login"]);
+        console.log("SingIn is work!");
     }
     public singUp(){
         this.router.navigate(["register"]);
+        console.log("SingUp is work!");
     }
 }

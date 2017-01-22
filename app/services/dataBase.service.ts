@@ -9,17 +9,17 @@ import { UserModel } from "./../models/user.model";
 
 @Injectable()
 export class DataBaseService {
-    dates = [];
+    users: Array<UserModel>;
     constructor(){
         
     }
 
-    postData(data: UserModel){
-        this.dates.push(data);
+    postUserData(user: UserModel){
+        return this.users.push(user);
     }
 
-    getData(id: number){
-        return this.dates.slice(id, 1);
+    getUserData(user: UserModel){
+        return this.users.filter(user => user.name);
     }
 
     // // web server
