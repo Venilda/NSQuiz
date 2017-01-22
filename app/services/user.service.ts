@@ -11,7 +11,7 @@ export class UserService {
       this.db.postUserData(user);
   }
 
-  getUser(id: any){
+  login(id: any){
       return this.db.getUserData(id);
   }
 }

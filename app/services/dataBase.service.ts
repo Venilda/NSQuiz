@@ -18,8 +18,8 @@ export class DataBaseService {
         return this.users.push(user);
     }
 
-    getUserData(id: number){
-        return this.users.slice(id, 1);
+    getUserData(user: UserModel){
+        return this.users.filter(user => user.name);
     }
 
     // // web server
